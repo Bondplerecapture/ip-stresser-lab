@@ -1,0 +1,1 @@
+"""Shared contracts — the interface every extension and service implements."""
