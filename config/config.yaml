@@ -1,0 +1,29 @@
+# ip-stresser-lab — runtime defaults
+paths:
+  logs: logs
+  plugins: plugins
+
+limits:
+  max_concurrency: 2048
+  max_duration_seconds: 3600
+  pps_cap: 0            # 0 = unlimited
+  guard_cpu_percent: 90
+  guard_mem_percent: 85
+
+defaults:
+  port: 80
+  duration: 30
+  concurrency: 64
+  method: syn
+
+http:
+  user_agent_rotate: true
+  timeout_seconds: 3
+
+udp:
+  min_payload: 64
+  max_payload: 1400
+
+syn:
+  spoof_source: true
+  random_ttl: true
