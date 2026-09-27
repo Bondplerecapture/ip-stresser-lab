@@ -1,0 +1,1 @@
+"""Bootstrap layer: CLI entrypoint, config loading, host wiring."""
