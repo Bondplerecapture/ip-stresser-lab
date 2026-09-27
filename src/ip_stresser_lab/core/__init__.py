@@ -1,0 +1,1 @@
+"""Core: host lifecycle, plugin registry, dispatcher, rate scheduler."""
