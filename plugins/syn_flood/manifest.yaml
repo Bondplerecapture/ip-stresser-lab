@@ -1,0 +1,6 @@
+method: syn
+entry: plugin:SynFloodExtension
+version: 0.3.1
+description: Raw TCP SYN flood with spoofed source addresses.
+author: ip-stresser-lab contributors
+min_host_version: "0.5.0"
